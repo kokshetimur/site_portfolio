@@ -1,1 +1,1 @@
-# verstka po saitu
+# verstka po maketu
