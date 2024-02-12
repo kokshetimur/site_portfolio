@@ -1,1 +1,1 @@
-# verstka po maketu.
+# verstka po maketu.;
