@@ -159,6 +159,28 @@ margin-right: 225px;
   text-transform: uppercase;
   display: flex;
 }
+#ourcapabilitis{
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(72, 85, 91);
+}
+#ourcapabilitis::after{
+  width: 50px;
+  height: 2px;
+  background-color: #00A4E5;
+  content: '';
+  display: block;
+  margin: 10px auto 0;
+}
+#ipsum{
+  font-size: 11px;
+  font-weight: 400;
+  color: rgb(72, 85, 91);
+}
+#href{
+
+}
+
 .serv__niz{
   display: flex;
   justify-content: space-between;
@@ -169,12 +191,37 @@ margin-right: 225px;
   box-sizing: border-box;
 border: 1px solid rgb(230, 230, 230);
 background: rgb(255, 255, 255);
-width: 250px;
-height: 250px;
+width: 295px;
+height: 330px;
+}
+.cardcover{
+  margin-top: 38px;
+  margin-left: 23px;
+  margin-bottom: 25px;
+}
+.servtext{
+  color: rgb(72, 85, 91);
+font-family: OpenSans;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.43px;
+text-align: left;
+margin-bottom: 13px;
+}
+#lore{
+  color: rgb(72, 85, 91);
+font-family: OpenSans;
+font-size: 13px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.19px;
+text-align: left;
 }
 #wan{
   height: 500px;
   background-image: url(/img/foooterg.png);
+  text-align: center;
 }
 #want{
   color: rgb(72, 85, 91);
@@ -202,6 +249,8 @@ line-height: -1px;
 letter-spacing: 0.85px;
 text-align: center;
 
+margin-right: 20px;
+
 }
 .inpu{
   box-sizing: border-box;
@@ -222,12 +271,23 @@ background: rgb(0, 164, 229);
   display: flex;
   justify-content: space-between;
   color: #fff;
+  width: 100%;
+  max-width:1200px ;
+  margin: 0 auto;
+  align-items: center;
+}
+.color{
+  background-color: rgb(20, 26, 32);
+ 
 }
 .f3{
   height: 70px;
   background-color: rgb(23, 24, 25);
   color: #fff;
-  text-align: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1440px){
