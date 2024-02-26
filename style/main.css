@@ -241,7 +241,9 @@ text-align: left;
 #wan{
   height: 500px;
   background-image: url(/img/foooterg.png);
-  text-align: center;
+  
+ align-items: center;
+
 }
 #want{
   color: rgb(72, 85, 91);
@@ -251,6 +253,7 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0.15px;
 text-align: center;
+
 }
 .f1{
   height: 100px;
@@ -285,6 +288,7 @@ height: 38px;
 height: 41px;
 background: rgb(0, 164, 229);
 }
+/* secon block */
 .f2 {
   height: 240px;
   background-color: rgb(20, 26, 32);
@@ -315,8 +319,13 @@ margin-top: 16px;
   gap: 10px;
  font-size: 11px;
  font-weight: 400;
- line-height: 25px;
+ text-transform: uppercase;
  text-decoration: none;
+ color: white;
+}
+#li{
+ text-decoration: none;
+ color: white;
 }
 .f2_item3{
   margin-top:40px;
@@ -345,7 +354,7 @@ line-height: 25px;
  font-weight: 400;
  line-height: 16px;
 }
-
+/* 3rd */
 .color{
   background-color: rgb(20, 26, 32);
  
