@@ -195,7 +195,10 @@ letter-spacing: 0.19px;
   display: flex;
   margin: 0 225px 100px;
 }
-
+.wrapper{
+  display: flex;
+  
+}
 .serv{
   margin-top: 200px;
   margin-bottom: 75px;
@@ -446,18 +449,11 @@ line-height: 25px;
   .story_inner{
     flex-wrap: wrap;
   }
-  .page{
+  .wrapper{
     flex-direction: column;
     justify-content: center;
   }
-  .f1{
-    flex-direction: column;
-    justify-content: center;
-  }
-  .f2{
-    flex-direction: column;
-    justify-content: center;
-  }
+  
   }
     
 @media  (max-width: 500px){
