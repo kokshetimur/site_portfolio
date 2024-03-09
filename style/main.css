@@ -448,7 +448,6 @@ line-height: 25px;
 @media  (max-width: 1024px){
   .story_inner{
     flex-wrap: wrap;
-    margin-right: 10px;
   }
   #PARTNER{
     font-size: 30px;
@@ -479,6 +478,9 @@ line-height: 25px;
    }
   #href{
     padding: 0 ;
+  }
+  .story_inner{
+    margin-left: 20px;
   }
   .story_right{
     flex-wrap: wrap;
